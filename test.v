@@ -1,6 +1,7 @@
 module hi;
 
-initial begin
+initial
+begin
 	$display("hiya");
 	#10 $finish;
 end
